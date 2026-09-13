@@ -1,5 +1,5 @@
+import { describe, it, expect, vi } from 'vitest'; // <-- Add this new line
 import { render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom/vitest';
 import App from '../App';
 
 vi.mock('../presentation/components/Balatro', () => ({
