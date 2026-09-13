@@ -1,0 +1,14 @@
+:root {
+  --color-sky: #AFD2E9;
+  --color-periwinkle: #9D96B8;
+  --color-mauve: #9A7197;
+  --color-plum: #886176;
+  --color-bg: #F8F9FA;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--color-bg);
+  color: #333;
+}
